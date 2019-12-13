@@ -12,6 +12,8 @@ function chaos(){
 		document.getElementById("wallpaper").classList.remove("wallpaper");
 		document.getElementById("wallpaper").classList.add("backgroundFlicker");
 		document.getElementById("inner-photo-gallery").classList.add('bounce');
+		document.getElementById("spinning-header").style.display ='block';
+		document.getElementById("big-red-button").classList.add("spin");
 		setInterval(popupMadness, 100);
 	}
 function playMusic(){
@@ -27,9 +29,9 @@ function popupMadness(){
 		var x = Math.ceil(Math.random()*1000);
 		var y = Math.ceil(Math.random()*1000);
 		if (x%2==1){
-			window.open("http://localhost/tack-a-thon/popup.html","_blank","toolbar=yes, scrollsbars=yes, resizable=yes, top="+x+", left="+y+",width=200,height=200");
+			window.open("https://jamosclaypool.github.io/popup.html","_blank","toolbar=yes, scrollsbars=yes, resizable=yes, top="+x+", left="+y+",width=200,height=200");
 		}else {
-			window.open("http://localhost/tack-a-thon/popup2.html","_blank","toolbar=yes, scrollsbars=yes, resizable=yes, top="+x+", left="+y+",width=200,height=200");
+			window.open("https://jamosclaypool.github.io/popup2.html","_blank","toolbar=yes, scrollsbars=yes, resizable=yes, top="+x+", left="+y+",width=200,height=200");
 		}
 }
 function openCover(){

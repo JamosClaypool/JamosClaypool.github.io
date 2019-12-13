@@ -37,7 +37,7 @@ html, body {
 .spin {
 	animation: spin 5s linear infinite;
 }
-.bounce {
+.bounce:hover {
 	animation: bounce 1.5s linear infinite;
 }
 @keyframes blinkingText{
@@ -377,7 +377,22 @@ to { -webkit-transform:rotate(360deg) }
 	text-shadow:1px 1px black;
 }
 .home-page {
-	background: url("../images/yulelog.gif") 
+	background: url("../images/yulelog.gif")
 	no-repeat center center fixed; 
 	background-size: cover;
+	height:100%;
+	text-align:center;
+}
+.big-red-button-home {
+	top:40%;
+	position:relative;
+}
+.big-red-button-home h1{
+	color:lightblue;
+	background-color:gray;
+	border-radius:3px;
+	box-shadow: 1px 3px black;
+	width:33.3333%;
+	left:33.3333%;
+	position:relative;
 }

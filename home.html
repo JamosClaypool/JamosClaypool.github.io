@@ -6,13 +6,98 @@
 		<script type="text/javascript" src ="jquery/javascript.js"></script>
 </head>
 <body class="home-page">
-<div class="big-red-button">
+<div class="spin">
+	<div class="title blinking" id="spinning-header" style="display:none;">
+		<h1>Tack-a-Thon</h1>
+	</div>
+</div>
+	<audio id="music-box-1">
+		<source src="music/Halloween_song_1.mp3">
+	</audio>
+	<div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+    ❅
+  </div>
+  <div class="snowflake">
+    ❆
+  </div>
+  <div class="snowflake">
+    ❅
+  </div>
+  <div class="snowflake">
+    ❆
+  </div>
+  <div class="snowflake">
+    ❅
+  </div>
+  <div class="snowflake">
+    ❆
+  </div>
+  <div class="snowflake">
+    🕷
+  </div>
+  <div class="snowflake">
+    🕷
+  </div>
+  <div class="snowflake">
+    🕷
+  </div>
+  <div class="snowflake">
+    🕷
+  </div>
+  <div class="snowflake">
+    🎃
+  </div>
+  <div class="snowflake">
+    🎃
+  </div>
+  <div class="snowflake">
+    🎃
+  </div>
+  <div class="snowflake">
+    🎃
+  </div>
+  <div class="snowflake">
+    🎃
+  </div>
+  <div class="snowflake">
+    🎃
+  </div>
+</div>
+	<audio id="music-box-2">
+		<source src="music/Holiday_song_1.mp3">
+	</audio>
+	<audio id="music-box-3">
+		<source src="music/Holiday_song_2.mp3">
+	</audio>
+<div class="big-red-button-home" id="big-red-button">
+	<div class="menu-item cheery">
+		<h1 class="bounce">Press Button for Holiday Cheer</h1>
+	</div>
 	<div class="menu" style="padding-top:10px; position:relative;">
 		<div class="metal" style="perspective:750px;">
 			<button class="circle shine" type="button" id="chaos-button" onclick="chaos()">PRESS</button>
 	      	<div class="cover placeholder" id="cover" onclick="openCover()">
 				<div class="cube">
-				    <div class="cube__face cube__face--front glass"><h4 id="warning">Open</h4></div>
+				    <div class="cube__face cube__face--front glass"><h4 id="warning"></h4></div>
 				    <!--<div class="cube__face cube__face--back glass">back</div>-->
 				    <div class="cube__face cube__face--right glass"></div>
 				    <div class="cube__face cube__face--left glass"></div>
@@ -21,7 +106,6 @@
 	  			</div>
 	      	</div>
 		</div>
-
 	</div>
 </div>
 </body>
