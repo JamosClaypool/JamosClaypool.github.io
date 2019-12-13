@@ -27,12 +27,12 @@ function playMusic(){
 }
 
 function popupMadness(){
-		var x = Math.ceil(Math.random()*1000);
-		var y = Math.ceil(Math.random()*1000);
+		var x = Math.ceil(Math.random()*100);
+		var y = Math.ceil(Math.random()*100);
 		if (x%2==1){
-			window.open("https://jamosclaypool.github.io/popup.html","_blank","toolbar=yes, scrollsbars=yes, resizable=yes, top="+x+", left="+y+",width=200,height=200");
+			window.open("https://jamosclaypool.github.io/popup.html","_blank","toolbar=yes, scrollsbars=yes, resizable=yes, top="+x+"%, left="+y+"%,width=200,height=200");
 		}else {
-			window.open("https://jamosclaypool.github.io/popup2.html","_blank","toolbar=yes, scrollsbars=yes, resizable=yes, top="+x+", left="+y+",width=200,height=200");
+			window.open("https://jamosclaypool.github.io/popup2.html","_blank","toolbar=yes, scrollsbars=yes, resizable=yes, top="+x+"%, left="+y+"%,width=200,height=200");
 		}
 }
 function openCover(){
