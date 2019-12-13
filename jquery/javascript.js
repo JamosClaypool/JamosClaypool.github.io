@@ -1,7 +1,7 @@
 function chaos(){
 		window.alert("Happy Tack-a-Thon!!!");
 		playMusic();
-		document.getElementById("dot").style.padding = "50px 25px 50px 25px";
+		/*document.getElementById("dot").style.padding = "50px 25px 50px 25px";
 		document.getElementById("dot").style.zIndex = "-100";
 		document.getElementById("nav-menu-item-1").classList.add("blinking");
 		document.getElementById("nav-menu-item-2").classList.add("blinking");
@@ -11,7 +11,7 @@ function chaos(){
 		document.getElementById("upload-form").style.position = "absolute";
 		document.getElementById("wallpaper").classList.remove("wallpaper");
 		document.getElementById("wallpaper").classList.add("backgroundFlicker");
-		document.getElementById("inner-photo-gallery").classList.add('bounce');
+		document.getElementById("inner-photo-gallery").classList.add('bounce');*/
 		document.getElementById("spinning-header").style.display ='block';
 		document.getElementById("big-red-button").classList.add("spin");
 		setInterval(popupMadness, 100);
