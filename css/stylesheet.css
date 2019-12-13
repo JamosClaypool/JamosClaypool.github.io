@@ -376,3 +376,8 @@ to { -webkit-transform:rotate(360deg) }
 	color:black;
 	text-shadow:1px 1px black;
 }
+.home-page {
+	background: url("../images/yulelog.gif") 
+	no-repeat center center fixed; 
+	background-size: cover;
+}
